@@ -1,8 +1,2 @@
-# Python-toolbox
-useful python commands:
- - audio conversion with sox linux command
- - random filename generator
- - write binary data to a file
- - json schema validation with jsonschema
- - compare two dictionaries and return their differences
- - email regex
+# All-in-one toolbox
+ Useful commands and functions are categorized based on their language/tool
