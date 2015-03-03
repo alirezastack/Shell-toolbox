@@ -1,2 +1,9 @@
 Amending the commit message:
 	git commit --amend -m "This will be replaced with the old commit message."
+
+If you've already pushed your commit up to your remote branch, then you'll need to force push the commit with
+git push <remote> <branch> --force
+# Or
+git push <remote> <branch> -f
+
+-----------------------------------------------------------------
