@@ -5,3 +5,4 @@ useful python commands:
  - write binary data to a file
  - json schema validation with jsonschema
  - compare two dictionaries and return their differences
+ - email regex
