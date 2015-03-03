@@ -1,0 +1,2 @@
+Amending the commit message:
+	git commit --amend -m "This will be replaced with the old commit message."
