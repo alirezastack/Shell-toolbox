@@ -6,3 +6,4 @@ useful python commands:
  - json schema validation with jsonschema
  - compare two dictionaries and return their differences
  - email regex
+ - prompt for password without echoing
