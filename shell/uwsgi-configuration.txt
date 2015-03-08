@@ -1,0 +1,23 @@
+Flask deploy
+
+Flask is an amazing microframework. Deploying it on uWSGI is super-fast/super-easy
+
+(call it myapp.py)
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return "Hello World!"
+
+if __name__ == '__main__':
+    app.run()
+
+
+./uwsgi -s /tmp/mysock.sock --module myapp --callable app
+
+or
+
+./uwsgi -s /tmp/mysock.sock -w myapp:app
+
