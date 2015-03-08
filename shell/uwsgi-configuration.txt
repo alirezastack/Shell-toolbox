@@ -21,3 +21,6 @@ or
 
 ./uwsgi -s /tmp/mysock.sock -w myapp:app
 
+sample real world example:
+
+uwsgi --http :8000 --callable app --chdir ~/PycharmProjects/web-back/zg/ --wsgi-file ~/PycharmPjects/web-back/zg/app.py
