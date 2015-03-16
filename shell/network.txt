@@ -1,0 +1,13 @@
+listen on a specific port on shell and see packets:
+nc -l 172.16.131.102 80
+
+
+tcpdump command examples:
+ - sudo tcpdump -w ~/dump.raw -i any -s 65535
+ - dump all packets: tcpdump -i eth0
+ - ignore hostnames with -n: tcpdump -i eth0 -n
+ - receive just 2packets with -c2: tcpdump -i eth0 -n -c2
+ - make it verboseo with -vvv: tcpdump -i eth0 -n -c2 -vvv
+ - write it to a file with -w: tcpdump -i eth0 -n -c1 -A -vvv -w ` date +%Y_%m_%d.pcap`
+
+
