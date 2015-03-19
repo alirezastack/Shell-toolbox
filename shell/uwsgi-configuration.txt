@@ -23,4 +23,4 @@ or
 
 sample real world example:
 
-uwsgi --http :8000 --callable app --chdir ~/PycharmProjects/web-back/zg/ --wsgi-file ~/PycharmPjects/web-back/zg/app.py
+uwsgi --http :8000 --callable app --chdir ~/PycharmProjects/web-back/zg/ --wsgi-file app.py
